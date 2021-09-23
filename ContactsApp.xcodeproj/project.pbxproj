@@ -11,6 +11,11 @@
 		C65EEC0A26FCBCFE00B1AD97 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC0926FCBCFE00B1AD97 /* ContentView.swift */; };
 		C65EEC0C26FCBCFF00B1AD97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65EEC0B26FCBCFF00B1AD97 /* Assets.xcassets */; };
 		C65EEC0F26FCBCFF00B1AD97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C65EEC0E26FCBCFF00B1AD97 /* Preview Assets.xcassets */; };
+		C65EEC1B26FCC80A00B1AD97 /* ContactsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC1A26FCC80A00B1AD97 /* ContactsList.swift */; };
+		C65EEC1D26FCC82900B1AD97 /* ContactsInfoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC1C26FCC82900B1AD97 /* ContactsInfoList.swift */; };
+		C65EEC2326FCC9E100B1AD97 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC2226FCC9E100B1AD97 /* DataManager.swift */; };
+		C65EEC2526FCD0FE00B1AD97 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC2426FCD0FE00B1AD97 /* DetailInfo.swift */; };
+		C65EEC2726FCE0F200B1AD97 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65EEC2626FCE0F200B1AD97 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		C65EEC0926FCBCFE00B1AD97 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C65EEC0B26FCBCFF00B1AD97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C65EEC0E26FCBCFF00B1AD97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C65EEC1A26FCC80A00B1AD97 /* ContactsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsList.swift; sourceTree = "<group>"; };
+		C65EEC1C26FCC82900B1AD97 /* ContactsInfoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsInfoList.swift; sourceTree = "<group>"; };
+		C65EEC2226FCC9E100B1AD97 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		C65EEC2426FCD0FE00B1AD97 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
+		C65EEC2626FCE0F200B1AD97 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +61,13 @@
 		C65EEC0626FCBCFE00B1AD97 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				C65EEC0726FCBCFE00B1AD97 /* ContactsAppApp.swift */,
+				C65EEC1926FCC24A00B1AD97 /* DataManager */,
+				C65EEC2826FCE0FF00B1AD97 /* Model */,
 				C65EEC0926FCBCFE00B1AD97 /* ContentView.swift */,
+				C65EEC1A26FCC80A00B1AD97 /* ContactsList.swift */,
+				C65EEC2426FCD0FE00B1AD97 /* DetailInfo.swift */,
+				C65EEC1C26FCC82900B1AD97 /* ContactsInfoList.swift */,
+				C65EEC0726FCBCFE00B1AD97 /* ContactsAppApp.swift */,
 				C65EEC0B26FCBCFF00B1AD97 /* Assets.xcassets */,
 				C65EEC0D26FCBCFF00B1AD97 /* Preview Content */,
 			);
@@ -65,6 +80,22 @@
 				C65EEC0E26FCBCFF00B1AD97 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C65EEC1926FCC24A00B1AD97 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				C65EEC2226FCC9E100B1AD97 /* DataManager.swift */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		C65EEC2826FCE0FF00B1AD97 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C65EEC2626FCE0F200B1AD97 /* Person.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +168,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65EEC2526FCD0FE00B1AD97 /* DetailInfo.swift in Sources */,
+				C65EEC2326FCC9E100B1AD97 /* DataManager.swift in Sources */,
+				C65EEC1D26FCC82900B1AD97 /* ContactsInfoList.swift in Sources */,
+				C65EEC1B26FCC80A00B1AD97 /* ContactsList.swift in Sources */,
+				C65EEC2726FCE0F200B1AD97 /* Person.swift in Sources */,
 				C65EEC0A26FCBCFE00B1AD97 /* ContentView.swift in Sources */,
 				C65EEC0826FCBCFE00B1AD97 /* ContactsAppApp.swift in Sources */,
 			);
