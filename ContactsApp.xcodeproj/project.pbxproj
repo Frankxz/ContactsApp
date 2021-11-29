@@ -42,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C62D2975275552FD0097B47D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C65EEC2226FCC9E100B1AD97 /* DataManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
 		C65EEBFB26FCBCFE00B1AD97 = {
 			isa = PBXGroup;
 			children = (
@@ -61,7 +69,7 @@
 		C65EEC0626FCBCFE00B1AD97 /* ContactsApp */ = {
 			isa = PBXGroup;
 			children = (
-				C65EEC1926FCC24A00B1AD97 /* DataManager */,
+				C62D2975275552FD0097B47D /* Service */,
 				C65EEC2826FCE0FF00B1AD97 /* Model */,
 				C65EEC0926FCBCFE00B1AD97 /* ContentView.swift */,
 				C65EEC1A26FCC80A00B1AD97 /* ContactsList.swift */,
@@ -80,14 +88,6 @@
 				C65EEC0E26FCBCFF00B1AD97 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		C65EEC1926FCC24A00B1AD97 /* DataManager */ = {
-			isa = PBXGroup;
-			children = (
-				C65EEC2226FCC9E100B1AD97 /* DataManager.swift */,
-			);
-			path = DataManager;
 			sourceTree = "<group>";
 		};
 		C65EEC2826FCE0FF00B1AD97 /* Model */ = {

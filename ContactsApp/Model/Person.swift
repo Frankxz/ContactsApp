@@ -37,7 +37,6 @@ extension Person: Hashable {
         
         for index in 0..<iterationCount {
             let person = Person(
-    
                 name: names[index],
                 surname: surnames[index],
                 phone: phones[index],
